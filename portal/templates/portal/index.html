@@ -1,10 +1,12 @@
 
 <!DOCTYPE html>
-<html>
 
+{% load static %}
+
+<html>
 <head>
-	<title>Amazon Lex for JavaScript - Sample Application (BookTrip)</title>
-	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+	<title>JimCo Portal</title>
+	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.226.1.js"></script>
 	<style language="text/css">
 		input#wisdom {
 			padding: 4px;
@@ -53,6 +55,46 @@
 </head>
 
 <body>
+	<button onclick="clickToCall()">Click to Call</button>
+	<script>
+		function clickToCall() {
+
+            // Initialize the Amazon Cognito credentials provider
+            AWS.config.region = 'us-east-1'; // Region
+            AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+                IdentityPoolId: 'us-east-1:25a24611-7b4a-4a42-badf-823cac53faf2',
+            });
+
+            var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
+
+            var payload = {
+                DestinationPhoneNumber: '+12108548842',
+                Attributes: {
+                    'Name': 'Jim Conner',
+                    'AccountNumber': '12345'
+                }
+            }
+
+
+            var pullParams = {
+                FunctionName : 'OutboundCall',
+                InvocationType : 'RequestResponse',
+                LogType : 'None',
+                Payload: JSON.stringify(payload)
+            };
+
+            console.log(JSON.stringify(payload))
+
+            lambda.invoke(pullParams, function(error, data) {
+                if (error) {
+                    console.log(error, error.stack);
+                } else {
+                    console.log(data.Payload);
+                }
+            });
+
+		}
+	</script>
 	<h1 style="text-align:  left">JimCo Servicing</h1>
 	<p style="width: 400px">
 		This little chatbot shows how easy it is to incorporate

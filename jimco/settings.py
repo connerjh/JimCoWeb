@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     'jimcoweb-dev.us-east-1.elasticbeanstalk.com'
 ]
 
+LOGIN_REDIRECT_URL = 'index'
 
 # Application definition
 
