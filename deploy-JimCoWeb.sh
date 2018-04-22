@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-eb deploy
+eb deploy jimcoweb-dev
