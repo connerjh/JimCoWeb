@@ -7,6 +7,9 @@
 <head>
 	<title>JimCo Portal</title>
 	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.226.1.js"></script>
+	<script>
+		var userd_id = {{request.user}}
+	</script>
 	<style language="text/css">
 		input#wisdom {
 			padding: 4px;
@@ -71,6 +74,7 @@
                 DestinationPhoneNumber: '+12108548842',
                 Attributes: {
                     'Name': 'Jim Conner',
+					'User': userd_id,,
                     'AccountNumber': '12345',
 					'WebContext': '/portal/index.html'
                 }
