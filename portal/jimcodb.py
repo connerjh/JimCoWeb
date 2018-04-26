@@ -55,16 +55,32 @@ def get_account(account_number):
 # -----------------------------------------------------------------------------
 
 
-def get_individual_by_user(user_id):
+def get_individual_by_user(username):
 
     try:
 
         connection = get_connection()
 
         with connection.cursor(pymysql.cursors.DictCursor) as cursor:
-            cursor.execute("SELECT * FROM jimcodb.Individuals where UserName = %s;", (user_id,))
+            cursor.execute("SELECT * from jimcodb.Individuals where UserName = %s;", (username,))
             user = cursor.fetchone()
+
+            cursor.execute("SELECT * from jimcodb.IndividualCommunication where UserId = %s;", (user['IndividualId'],))
+            user['Communication'] = cursor.fetchall()
+
+            cursor.execute("SELECT * from jimcodb.Accounts where IndividualId = %s;", (user['IndividualId'],))
+            accounts_temp = cursor.fetchall()
+            accounts = []
+
+            for account in accounts_temp:
+                cursor.execute("SELECT AccountMessageId, AccountId, AccountMessage, Priority FROM jimcodb.AccountMessages where AccountId = %s and EffectiveFrom <= Now() and EffectiveTo >= Now() order by Priority asc;", (account['AccountId'],))
+                account['Messages'] = cursor.fetchall()
+                accounts.append(account)
+
+            user['Accounts'] = accounts
+
             logger.info('returned user: {}'.format(json.dumps(user)))
+
             return user
 
     except Exception as e:
