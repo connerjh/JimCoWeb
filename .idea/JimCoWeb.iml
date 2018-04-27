@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="JimCoLexCodeHooks" />
     <orderEntry type="module" module-name="JimCoDBLambda" />
+    <orderEntry type="module" module-name="JimCoLexCodeHooks" />
   </component>
 </module>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../JimCoDBLambda/.idea/JimCoDBLambda.iml" filepath="$PROJECT_DIR$/../JimCoDBLambda/.idea/JimCoDBLambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" filepath="$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" filepath="$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JimCoWeb.iml" filepath="$PROJECT_DIR$/.idea/JimCoWeb.iml" />
     </modules>
   </component>

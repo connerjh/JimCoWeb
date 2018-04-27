@@ -18,6 +18,7 @@ def index(request):
         context = {
             'UserId': user['UserName'],
             'FullName': user['FirstName'] + " " + user['LastName'],
+            'User': user
         }
         template = loader.get_template('portal/index.html')
         return HttpResponse(template.render(context, request))
