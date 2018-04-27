@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/balance_inquiry.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/balance_inquiry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/utilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JimCoWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JimCoWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/templates/portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="balance_inquiry.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="balance_inquiry.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/balance_inquiry.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="92" column="101" selection-start-line="92" selection-start-column="101" selection-end-line="92" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy-JimCoWeb.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deploy-JimCoWeb.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -152,7 +152,7 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../JimCoLexCodeHooks" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -611,7 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1524786453767</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add click to call and site login">
+      <created>1524847823915</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1524847823915</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add click to call and site login">
+      <created>1524847853132</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1524847853132</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -632,9 +646,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3407155" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3299435" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25156325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25156325" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -719,13 +733,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/portal/templates/registration/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1056,6 +1063,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="92" column="101" selection-start-line="92" selection-start-column="101" selection-end-line="92" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy-JimCoWeb.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
