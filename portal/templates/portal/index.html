@@ -70,8 +70,9 @@
             var payload = {
                 DestinationPhoneNumber: '+12108548842',
                 Attributes: {
-                    'Name': 'Jim Conner',
-                    'AccountNumber': '12345'
+                    'Name': {{FullName}},
+					'User': {{UserId}},
+					'WebContext': window.location.href
                 }
             }
 
@@ -116,7 +117,9 @@
 
 		var lexruntime = new AWS.LexRuntime();
 		var lexUserId = 'chatbot-demo' + Date.now();
-		var sessionAttributes = {};
+		var sessionAttributes = {
+		    'BotOrigin': 'JimCoWeb'
+        };
 
 		function pushChat() {
 
