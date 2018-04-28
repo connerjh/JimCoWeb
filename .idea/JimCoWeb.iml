@@ -7,5 +7,6 @@
     <orderEntry type="module" module-name="JimCoLexCodeHooks" />
     <orderEntry type="module" module-name="JimCoDBLambda" />
     <orderEntry type="module" module-name="JimCoLexCodeHooks" />
+    <orderEntry type="module" module-name="JimCoGreetCheck" />
   </component>
 </module>
