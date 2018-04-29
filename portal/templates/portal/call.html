@@ -35,6 +35,10 @@
 
             var payload = {
                 DestinationPhoneNumber: phoneNumber,
+                Attributes: {
+                    'Name': '{{FullName}}',
+					'User': '{{UserId}}'
+                }
             }
 
 
@@ -47,13 +51,15 @@
 
             console.log(JSON.stringify(payload))
 
-            lambda.invoke(pullParams, function(error, data) {
+            var response = lambda.invoke(pullParams, function(error, data) {
                 if (error) {
                     console.log(error, error.stack);
                 } else {
                     console.log(data.Payload);
                 }
             });
+
+            console.log(response);
 
 		}
     </script>
