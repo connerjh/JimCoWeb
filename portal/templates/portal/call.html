@@ -31,7 +31,7 @@
 
             var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
 
-            context = {"Type": "Purchase", "Id": "1234567"};
+            context = {};
 
             var payload = {
                 DestinationPhoneNumber: phoneNumber,
