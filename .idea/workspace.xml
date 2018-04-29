@@ -305,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Bash.deploy-JimCoWeb.sh">
     <configuration name="deploy-JimCoGreetCheck.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="JimCoGreetCheck" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -322,6 +322,15 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JimCoLexCodeHooks" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
+    <configuration name="deploy-JimCoWeb.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="JimCoWeb" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/deploy-JimCoWeb.sh" />
       <option name="PARAMETERS" value="" />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -401,25 +410,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
       <option name="PARAMETERS" value="runserver" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JimCoGreetCheck" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../JimCoGreetCheck" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../JimCoGreetCheck/test.py" />
-      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -546,16 +536,16 @@
       <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
       <item itemvalue="Bash.deploy-JimCoGreetCheck.sh" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Bash.deploy-JimCoWeb.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
+        <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.manage" />
-        <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
         <item itemvalue="Bash.deploy-JimCoGreetCheck.sh" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
