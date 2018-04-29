@@ -31,17 +31,7 @@
 
             var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
 
-            if (!context) {
-
-                context = {};
-
-            }
-            else {
-
-                // context = JSON.parse(context);
-                context = {};
-
-            }
+            context = {}
 
             var payload = {
                 DestinationPhoneNumber: phoneNumber,
@@ -50,7 +40,7 @@
 					'User': '{{UserId}}',
 					'CallContext': JSON.stringify(context)
                 }
-            };
+            }
 
 
             var pullParams = {
@@ -62,7 +52,7 @@
 
             console.log(JSON.stringify(payload))
 
-            var call_response = lambda.invoke(pullParams, function(error, data) {
+            lambda.invoke(pullParams, function(error, data) {
                 if (error) {
                     console.log(error, error.stack);
                 } else {
@@ -70,10 +60,8 @@
                 }
             });
 
-            console.log(call_response)
-
 		}
-	</script>
+    </script>
 	<style language="text/css">
 
 		* {
