@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+<head>
+	<title>JimCo Portal</title>
+	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.226.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script>
+
+		var callContext = new URL(window.location.href).searchParams.get('context');
+
+
+		function validateNumber(number) {
+
+            var state = ! /\+1[0-9]{10}/.test(number)
+		    document.getElementById('callButton').disabled = state;
+
+        }
+
+
+		function clickToCall(phoneNumber, context) {
+
+            // Initialize the Amazon Cognito credentials provider
+            AWS.config.region = 'us-east-1'; // Region
+            AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+                IdentityPoolId: 'us-east-1:25a24611-7b4a-4a42-badf-823cac53faf2',
+            });
+
+            var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
+
+            if (context) {
+
+                context = "No Context"
+
+            }
+
+            var payload = {
+                DestinationPhoneNumber: phoneNumber,
+                Attributes: {
+                    'Name': '{{FullName}}',
+					'User': '{{UserId}}',
+					'CallContext': JSON.stringify(context)
+                }
+            }
+
+
+            var pullParams = {
+                FunctionName : 'OutboundCall',
+                InvocationType : 'RequestResponse',
+                LogType : 'None',
+                Payload: JSON.stringify(payload)
+            };
+
+            console.log(JSON.stringify(payload))
+
+            var call_response = lambda.invoke(pullParams, function(error, data) {
+                if (error) {
+                    console.log(error, error.stack);
+                } else {
+                    console.log(data.Payload);
+                }
+            });
+
+            console.log(call_response)
+
+		}
+	</script>
+	<style language="text/css">
+
+		* {
+			font-family: "Lucida Grande";
+			font-size: medium;
+		}
+
+		.welcomeHeader {
+			font-weight: bolder;
+			color: blue;
+		}
+
+		.pageTitle {
+			font-size: xx-large;
+		}
+
+		.accountMessage {
+			font-size: small;
+			color: darkblue;
+		}
+
+		.callNowAnchor {
+			font-size: small;
+		}
+
+
+	</style>
+	<style language="text/css">
+
+		.hover_bkgr_fricc{
+			background:rgba(0,0,0,.4);
+			cursor:pointer;
+			display:none;
+			height:100%;
+			position:fixed;
+			text-align:center;
+			top:0;
+			width:100%;
+			z-index:10000;
+		}
+
+		.hover_bkgr_fricc .helper{
+			display:inline-block;
+			height:100%;
+			vertical-align:middle;
+		}
+
+		.hover_bkgr_fricc > div {
+			background-color: #fff;
+			box-shadow: 10px 10px 60px #555;
+			display: inline-block;
+			height: auto;
+			max-width: 250px;
+			min-height: 100px;
+			vertical-align: middle;
+			width: 60%;
+			position: relative;
+			border-radius: 5px;
+			padding: 15px 5%;
+		}
+
+		.popupCloseButton {
+			background-color: #fff;
+			border: 2px solid #999;
+			border-radius: 5px;
+			cursor: pointer;
+			display: inline-block;
+			font-family: arial;
+			font-weight: bold;
+			font-size: 20px;
+			position: absolute;
+			top: -20px;
+			right: -20px;
+			line-height: 30px;
+			width: 30px;
+			height: 30px;
+			text-align: center;
+		}
+
+		.popupCloseButton:hover {
+			background-color: #ccc;
+		}
+
+		.trigger_popup_fricc {
+			cursor: pointer;
+		}
+
+		 .select-editable {
+			 position:relative;
+			 background-color:white;
+			 border:solid grey 1px;
+			 width:120px;
+			 height:18px;
+		 }
+		 .select-editable select {
+			 position:absolute;
+			 top:0px;
+			 left:0px;
+			 font-size:14px;
+			 border:none;
+			 width:120px;
+			 margin:0;
+		 }
+		 .select-editable input {
+			 position:absolute;
+			 top:0px;
+			 left:0px;
+			 width:100px;
+			 padding:1px;
+			 font-size:12px;
+			 border:none;
+		 }
+		 .select-editable select:focus, .select-editable input:focus {
+			 outline:none;
+		 }
+
+
+	</style>
+</head>
+
+<body>
+
+	<h1 class="pageTitle" style="text-align:  left">JimCo Servicing - Call</h1>
+
+	<table width="1010px">
+		<tr>
+			<td colspan="2" align="right">
+				<p class="welcomeHeader">Welcome Back, {{User.FirstName}} {{User.LastName}}</p>
+			</td>
+		</tr>
+		<tr valign="top" width="500px" style="margin-top: 10px">
+			<td align="left">
+
+				<div align="center">
+				<table>
+                    <tr>
+						<td colspan="2">
+							<div style="align-content: center">
+								Enter a phone number formatted to begin with '+1' then area code and number (e.g. '+12101234567')
+								<p/>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Phone Number
+						</td>
+						<td>
+							<div class="select-editable">
+								<select onchange="this.nextElementSibling.value=this.value; validateNumber(this.value);">
+									<option value=""></option>
+									{% for comm in User.Communication %}
+										{% if "Phone" == comm.CommuncationType %}
+											<option value='{{comm.CommunicationValue}}'>{{comm.CommunicationValue}}</option>
+										{% endif %}
+									{% endfor %}
+								</select>
+								<input id="PhoneNumber" type="text" name="format" value="" onkeyup="validateNumber(this.value)" />
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<div style="margin-top: 20px; align-content: center">
+							<td colspan="2">
+								<button id="callButton" disabled=true type="button" style="width: 100px; margin-top: 25px; margin-right: 25px" onclick="clickToCall(document.getElementById('PhoneNumber').value, callContext); window.location.href = '../portal';">
+									Call
+								</button>
+								<button style="width: 100px; margin-top: 25px" onclick="window.location.href = '../portal';">
+									Cancel
+								</button>
+							</td>
+						</div>
+					</tr>
+				</table>
+			</div>
+
+			</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>

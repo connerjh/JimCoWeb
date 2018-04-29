@@ -12,6 +12,12 @@
 
 		var callContext;
 
+		function validateNumber(number) {
+
+		    document.getElementById('callButton').disabled = ! /\+1[0-9]{10}/.test(number);
+
+        }
+
 		function clickToCall(phoneNumber, context) {
 
             // Initialize the Amazon Cognito credentials provider
@@ -228,12 +234,20 @@
 			<div align="center">
 				<table>
 					<tr>
+						<td colspan="2">
+							<div style="align-content: center">
+								Enter a phone number formatted to begin with '+1' then area code and number (e.g. '+12101234567')
+								<p/>
+							</div>
+						</td>
+					</tr>
+					<tr>
 						<td>
 							Phone Number
 						</td>
 						<td>
 							<div class="select-editable">
-								<select onchange="this.nextElementSibling.value=this.value">
+								<select onchange="this.nextElementSibling.value=this.value; validateNumber(this.value);">
 									<option value=""></option>
 									{% for comm in User.Communication %}
 										{% if "Phone" == comm.CommuncationType %}
@@ -241,14 +255,14 @@
 										{% endif %}
 									{% endfor %}
 								</select>
-								<input id="PhoneNumber" type="text" name="format" value="" />
+								<input id="PhoneNumber" type="text" name="format" value="" onkeyup="validateNumber(this.value);"/>
 							</div>
 						</td>
 					</tr>
 					<tr>
 						<div style="margin-top: 20px; align-content: center">
 							<td colspan="2">
-								<button type="button" style="width: 100px; margin-top: 25px; margin-right: 25px" onclick="clickToCall(document.getElementById('PhoneNumber').value, callContext); $('.hover_bkgr_fricc').hide()">
+								<button id="callButton" type="button" disabled=true style="width: 100px; margin-top: 25px; margin-right: 25px" onclick="clickToCall(document.getElementById('PhoneNumber').value, callContext); $('.hover_bkgr_fricc').hide()">
 									Call
 								</button>
 								<button style="width: 100px; margin-top: 25px" onclick="$('.hover_bkgr_fricc').hide()">

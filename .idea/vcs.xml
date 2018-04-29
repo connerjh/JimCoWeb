@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../JimCoDBLambda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JimCoGreetCheck" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../JimCoLexCodeHooks" vcs="Git" />
   </component>
 </project>
