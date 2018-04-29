@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial" />
+    <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/templates/portal/call.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/call.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +34,8 @@
       <file leaf-file-name="call.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="468">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
@@ -216,8 +219,8 @@
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py" />
         <option value="$PROJECT_DIR$/portal/templates/portal/index.html" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py" />
-        <option value="$PROJECT_DIR$/portal/templates/portal/call.html" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh" />
+        <option value="$PROJECT_DIR$/portal/templates/portal/call.html" />
       </list>
     </option>
   </component>
@@ -313,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Bash.deploy-JimCoWeb.sh">
     <configuration name="deploy-JimCoGreetCheck.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="JimCoGreetCheck" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
@@ -549,9 +552,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
-        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
         <item itemvalue="Python.test" />
         <item itemvalue="Bash.deploy-JimCoGreetCheck.sh" />
       </list>
@@ -913,7 +916,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/portal/templates/portal/call.html</url>
-          <line>224</line>
+          <line>225</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -1299,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="468">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
