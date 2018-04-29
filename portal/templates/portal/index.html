@@ -28,6 +28,12 @@
 
             var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
 
+            if (!context) {
+
+                context = {}
+
+            }
+
             var payload = {
                 DestinationPhoneNumber: phoneNumber,
                 Attributes: {
