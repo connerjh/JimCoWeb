@@ -1,5 +1,6 @@
 from django.template import loader
 from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import redirect
 from django.template import Context
 from . import jimcodb
 
@@ -25,7 +26,7 @@ def index(request):
 
     else:
 
-        return HttpResponseRedirect('/login/')
+        return redirect('/login/?next={}'.format(request.path))
 
 
 def call(request):
@@ -47,7 +48,7 @@ def call(request):
 
     else:
 
-        return HttpResponseRedirect('/login/')
+        return redirect('/login/?next={}'.format(request.path))
 
 
 

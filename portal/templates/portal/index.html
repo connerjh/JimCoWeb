@@ -343,8 +343,6 @@
 		</tr>
 	</table>
 
-</body>
-
 	<script type="text/javascript">
 		// set the focus to the input box
 		document.getElementById("wisdom").focus();
@@ -443,5 +441,18 @@
 			conversationDiv.scrollTop = conversationDiv.scrollHeight;
 		}
 	</script>
+	<script type="text/javascript">
+
+		callContext = new URL(window.location.href).searchParams.get('callContext');
+
+		if ( callContext ) {
+
+            $('.hover_bkgr_fricc').show();
+
+        }
+
+	</script>
+
+</body>
 
 </html>
