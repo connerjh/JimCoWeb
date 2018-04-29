@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial">
       <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/templates/portal/call.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/call.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="call.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="578">
+              <caret line="228" column="210" selection-start-line="228" selection-start-column="210" selection-end-line="228" selection-end-column="210" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
@@ -802,6 +802,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="29" y="54" width="1863" height="1305" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919955" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1301,8 +1302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="578">
+          <caret line="228" column="210" selection-start-line="228" selection-start-column="210" selection-end-line="228" selection-end-column="210" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />

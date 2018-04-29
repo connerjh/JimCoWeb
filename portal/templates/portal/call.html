@@ -21,7 +21,7 @@
         }
 
 
-		function clickToCall(phoneNumber, context) {
+		function callNow(phoneNumber, context) {
 
             // Initialize the Amazon Cognito credentials provider
             AWS.config.region = 'us-east-1'; // Region
@@ -31,7 +31,7 @@
 
             var lambda = new AWS.Lambda({region: 'us-east-1', apiVersion: '2015-03-31'});
 
-            context = {}
+            context = {"Type": "Purchase", "Id": "1234567"};
 
             var payload = {
                 DestinationPhoneNumber: phoneNumber,
@@ -226,7 +226,7 @@
 					<tr>
 						<div style="margin-top: 20px; align-content: center">
 							<td colspan="2">
-								<button id="callButton" disabled=true type="button" style="width: 100px; margin-top: 25px; margin-right: 25px" onclick="clickToCall(document.getElementById('PhoneNumber').value, callContext); window.location.href = '../portal';">
+								<button id="callButton" disabled=true type="button" style="width: 100px; margin-top: 25px; margin-right: 25px" onclick="callNow(document.getElementById('PhoneNumber').value, null); window.location.href = '../portal';">
 									Call
 								</button>
 								<button style="width: 100px; margin-top: 25px" onclick="window.location.href = '../portal';">
