@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial">
-      <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portal/templates/portal/call.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/call.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/templates/portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,19 +15,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JimCoWeb$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1524946487720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoGreetCheck" />
     <SUITE FILE_PATH="coverage/JimCoWeb$test.coverage" NAME="test Coverage Results" MODIFIED="1525014085783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoLexCodeHooks" />
-    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1525014641954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1525016342376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="purchase.py" pinned="false" current-in-tab="false">
-        <entry file="file:///mnt/projects/PycharmProjects/JimCoLexCodeHooks/purchase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2305">
-              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="email_utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="call.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="call.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="594">
-              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
@@ -98,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="126">
+              <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
@@ -122,6 +112,18 @@
                 <element signature="n#style#0;n#input#0;n#form#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#script#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agent_assistance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,7 +204,6 @@
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/lambda_function.py" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/balance_inquiry.py" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/utilities.py" />
-        <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py" />
         <option value="$PROJECT_DIR$/../JimCoGreetCheck/README.md" />
         <option value="$PROJECT_DIR$/../JimCoGreetCheck/.gitignore" />
         <option value="$PROJECT_DIR$/../JimCoGreetCheck/deploy-JimCoGreetCheck.sh" />
@@ -217,8 +218,9 @@
         <option value="$PROJECT_DIR$/deploy-JimCoWeb.sh" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py" />
-        <option value="$PROJECT_DIR$/portal/templates/portal/call.html" />
         <option value="$PROJECT_DIR$/portal/templates/portal/index.html" />
+        <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py" />
+        <option value="$PROJECT_DIR$/portal/templates/portal/call.html" />
       </list>
     </option>
   </component>
@@ -551,8 +553,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
-        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
         <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
+        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
         <item itemvalue="Python.test" />
         <item itemvalue="Bash.deploy-JimCoGreetCheck.sh" />
       </list>
@@ -807,9 +809,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3407155" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32964224" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2905889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2905889" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -914,7 +916,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/portal/templates/portal/call.html</url>
-          <line>219</line>
+          <line>224</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -1098,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="33" column="104" selection-start-line="33" selection-start-column="104" selection-end-line="33" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/balance_inquiry.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="657">
@@ -1268,23 +1263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#0;n#div#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/portal/templates/portal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state relative-caret-position="126">
+          <caret line="16" column="85" lean-forward="true" selection-start-line="16" selection-start-column="85" selection-end-line="16" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" />
@@ -1304,6 +1286,29 @@
             <element signature="n#style#0;n#input#0;n#form#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#td#1;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#0;n#div#0;n#tr#1;n#table#0;n#div#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

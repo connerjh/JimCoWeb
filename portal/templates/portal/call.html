@@ -33,7 +33,12 @@
 
             if (!context) {
 
-                context = {}
+                context = {};
+
+            }
+            else {
+
+                context = JSON.parse(context);
 
             }
 
@@ -44,7 +49,7 @@
 					'User': '{{UserId}}',
 					'CallContext': JSON.stringify(context)
                 }
-            }
+            };
 
 
             var pullParams = {
