@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/templates/portal/call.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/call.html" afterDir="false" />
-    </list>
+    <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +12,15 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JimCoWeb$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1524946487720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoGreetCheck" />
     <SUITE FILE_PATH="coverage/JimCoWeb$test.coverage" NAME="test Coverage Results" MODIFIED="1525014085783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoLexCodeHooks" />
-    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1525016342376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1525017157266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="email_utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+            <state relative-caret-position="686">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -34,8 +31,8 @@
       <file leaf-file-name="call.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
@@ -49,8 +46,8 @@
       <file leaf-file-name="deploy-JimCoLexCodeHooks.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+            <state relative-caret-position="234">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -67,7 +64,7 @@
       <file leaf-file-name="purchase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2466">
+            <state relative-caret-position="1440">
               <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
@@ -168,7 +165,7 @@
       <find>Connect</find>
       <find>ClickContext</find>
       <find>&lt;s&gt;</find>
-      <find />
+      <find>are you</find>
       <find>callCon</find>
     </findStrings>
   </component>
@@ -211,7 +208,6 @@
         <option value="$PROJECT_DIR$/../JimCoGreetCheck/test.py" />
         <option value="$PROJECT_DIR$/../JimCoGreetCheck/lambda_function.py" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/email.py" />
-        <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/test.py" />
         <option value="$PROJECT_DIR$/portal/urls.py" />
         <option value="$PROJECT_DIR$/portal/views.py" />
@@ -221,6 +217,7 @@
         <option value="$PROJECT_DIR$/portal/templates/portal/index.html" />
         <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/agent_assistance.py" />
         <option value="$PROJECT_DIR$/portal/templates/portal/call.html" />
+        <option value="$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh" />
       </list>
     </option>
   </component>
@@ -809,9 +806,9 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3407155" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24872231" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32964224" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2905889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2905889" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -1219,33 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2466">
-          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deploy-JimCoWeb.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1300,10 +1270,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/deploy-JimCoLexCodeHooks.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/purchase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../JimCoLexCodeHooks/email_utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/portal/templates/portal/call.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="n#style#2;n#head#0;n#html#0;n#!!top" />
