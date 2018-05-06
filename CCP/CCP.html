@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="amazon-connect-v1.2.0-2-g5fc44af.js"></script>
+<style>
+
+    #containerDiv {
+        width: 320px;
+        height: 456px;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    Before
+    <div id="containerDiv" ></div>
+    After
+    <script>
+
+        connect.core.initCCP(document.getElementById("containerDiv"), {
+            ccpUrl:        "https://jimcompany.awsapps.com/connect/ccp#/",
+            loginPopup:    true,          /*optional, default TRUE*/
+        });
+
+
+    </script>
+
+
+</body>
+</html>
