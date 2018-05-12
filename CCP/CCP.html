@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <html lang="en">
 <script src="amazon-connect-v1.2.0-2-g5fc44af.js"></script>
 <style>
@@ -11,13 +13,17 @@
 </style>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>JimCo - CCP</title>
 </head>
 <body>
 
-    Before
     <div id="containerDiv" ></div>
-    After
+    <div id="attributesDiv">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
     <script>
 
         connect.core.initCCP(document.getElementById("containerDiv"), {
@@ -25,6 +31,37 @@
             loginPopup:    true,          /*optional, default TRUE*/
         });
 
+        var agent = connect.getAgentData();
+
+        connect.Agent().onRoutable((agent) => {
+
+            console.log(agent);
+
+        });
+
+
+        connect.Contact().onConnected(() => {
+
+            var attributes = contact.getAttributes();
+            var element = document.getElementById("attributesDiv");
+
+
+            Array.from(element.children).forEach( (child) => {
+
+                child.parentElement.removeChild(child);
+
+            });
+
+            attributes.forEach( (attribute) => {
+
+                var div = document.createElement('div');
+                div.text = attribute.toString();
+                element.append(div);
+
+            });
+
+
+        });
 
     </script>
 
