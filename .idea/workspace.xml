@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23e0bd2a-1c0d-4783-9dea-146f1a742d5a" name="Default" comment="initial">
-      <change afterPath="$PROJECT_DIR$/portal/static/portal/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal/templates/portal/CCP.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JimCoCCP/CCP.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoCCP/CCP.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JimCoLexCodeHooks/JimCoLexCodeHooks.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JimCoWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JimCoWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jimco/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jimco/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/static/portal/amazon-connect-v1.2.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/portal/static/portal/amazon-connect-v1.2.0-2-g5fc44af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +17,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/JimCoWeb$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1524946487720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoGreetCheck" />
     <SUITE FILE_PATH="coverage/JimCoWeb$test.coverage" NAME="test Coverage Results" MODIFIED="1525026497196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../JimCoLexCodeHooks" />
-    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1526234349846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/JimCoWeb$manage.coverage" NAME="manage Coverage Results" MODIFIED="1526234935428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jimco/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="54">
               <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -46,7 +36,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="72">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -55,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jimco/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="726">
+              <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
             </state>
           </provider>
         </entry>
@@ -88,7 +78,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="72">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -106,13 +96,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CCP.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CCP.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/portal/templates/portal/CCP.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+            <state relative-caret-position="342">
+              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy-JimCoWeb.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy-JimCoWeb.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -212,8 +207,8 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/../JimCoCCP/CCP.html" />
         <option value="$PROJECT_DIR$/portal/views.py" />
-        <option value="$PROJECT_DIR$/jimco/settings.py" />
         <option value="$PROJECT_DIR$/portal/templates/portal/CCP.html" />
+        <option value="$PROJECT_DIR$/jimco/settings.py" />
       </list>
     </option>
   </component>
@@ -241,6 +236,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="amazon-connect-streams" type="cbb8eebc:String" user="amazon-connect-streams" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="amazon-connect-streams" type="cbb8eebc:String" user="amazon-connect-streams" />
+              <item name="$PROJECT_DIR$/../amazon-connect-streams" type="cbb8eebc:String" user="$PROJECT_DIR$/../amazon-connect-streams" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,39 +281,6 @@
               <item name="portal" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JimCoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JimCoWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JimCoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JimCoWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JimCoWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JimCoCCP" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="amazon-connect-streams" type="cbb8eebc:String" user="amazon-connect-streams" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="amazon-connect-streams" type="cbb8eebc:String" user="amazon-connect-streams" />
-              <item name="$PROJECT_DIR$/../amazon-connect-streams" type="cbb8eebc:String" user="$PROJECT_DIR$/../amazon-connect-streams" />
             </path>
           </expand>
           <select />
@@ -554,10 +532,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
+        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
         <item itemvalue="JavaScript Debug.CCP.html (1)" />
         <item itemvalue="JavaScript Debug.CCP.html" />
         <item itemvalue="Bash.deploy-JimCoLexCodeHooks.sh" />
-        <item itemvalue="Bash.deploy-JimCoWeb.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -813,13 +791,13 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919955" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.19423929" side_tool="true" visible="true" weight="0.32861897" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073856" side_tool="true" visible="true" weight="0.24792013" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49963072" weight="0.34026623" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963072" weight="0.24792013" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.8057607" visible="true" weight="0.32861897" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20901033" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926144" visible="true" weight="0.24792013" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.80539143" weight="0.32807308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21048744" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -946,9 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,9 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,9 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,9 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,9 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="882">
           <caret line="53" column="85" selection-start-line="53" selection-start-column="85" selection-end-line="53" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1364,12 +1327,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/static/portal/amazon-connect-v1.2.0-2-g5fc44af.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/jimco/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="54">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1379,7 +1339,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="72">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
@@ -1446,7 +1406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/portal/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="72">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
@@ -1454,17 +1414,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jimco/settings.py">
+    <entry file="file://$PROJECT_DIR$/portal/templates/portal/CCP.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="342">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/portal/templates/portal/CCP.html">
+    <entry file="file://$PROJECT_DIR$/deploy-JimCoWeb.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jimco/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="47" column="50" lean-forward="true" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        <state relative-caret-position="726">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
         </state>
       </provider>
     </entry>
