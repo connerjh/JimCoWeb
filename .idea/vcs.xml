@@ -2,7 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../JimCoCCP" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../JimCoGreetCheck" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../JimCoLexCodeHooks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../amazon-connect-streams" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="/static/portal/amazon-connect-v1.2.0-2-g5fc44af.js"></script>
+<script src="/static/portal/jquery-3.3.1.min.js"></script>
+<script>
+
+    var ccpUrl = "https://jimcompany.awsapps.com/connect/ccp#";
+
+</script>
+<head>
+    <style>
+
+        #containerDiv {
+            width: 320px;
+            height: 456px;
+            margin-bottom: 50px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>JimCo CCP</title>
+</head>
+<body>
+
+    <div id="loginDiv">
+        <a href="https://jimcompany.awsapps.com/connect/login" target="_blank">Login</a>
+    </div>
+    <div id="containerDiv" ></div>
+    <div id="attributesDiv">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+    </div>
+
+    <script>
+
+        var currentContact = null;
+
+        function accepted() {
+
+            var contact = currentContact;
+
+            var attributes = contact.getAttributes();
+            var element = document.getElementById("attributesDiv");
+
+            Array.from(element.children).forEach( (child) => {
+
+                child.parentElement.removeChild(child);
+
+            });
+
+            for ( var key in attributes ) {
+
+                var div = document.createElement('div');
+                var text = document.createTextNode(key.toString() + ":" + attributes[key]['value']);
+                var para = document.createElement('P');
+
+                para.appendChild(text);
+                div.appendChild(para);
+                element.appendChild(div);
+
+            };
+
+        }
+
+        function contacted(contact) {
+
+            currentContact = contact;
+
+            console.log("Subscribing to events for contact");
+            if (contact.getActiveInitialConnection()
+                && contact.getActiveInitialConnection().getEndpoint()) {
+                console.log("New contact is from " + contact.getActiveInitialConnection().getEndpoint().phoneNumber);
+            } else {
+                console.log("This is an existing contact for this agent");
+            }
+            console.log("Contact is from queue " + contact.getQueue().name);
+            console.log("Contact attributes are " + JSON.stringify(contact.getAttributes()));
+
+            contact.onAccepted( accepted );
+
+        }
+
+    </script>
+
+    <script>
+
+        connect.core.initCCP(document.getElementById("containerDiv"), {
+            ccpUrl:        ccpUrl,
+            loginPopup:    true,
+            softphone:     {
+                allowFramedSoftphone: true
+            }
+        });
+
+        connect.contact( contacted );
+
+    </script>
+
+
+</body>
+</html>

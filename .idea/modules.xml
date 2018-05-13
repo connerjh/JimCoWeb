@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../JimCoDBLambda/.idea/JimCoDBLambda.iml" filepath="$PROJECT_DIR$/../JimCoDBLambda/.idea/JimCoDBLambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JimCoCCP/.idea/JimCoCCP.iml" filepath="$PROJECT_DIR$/../JimCoCCP/.idea/JimCoCCP.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JimCoGreetCheck/.idea/JimCoGreetCheck.iml" filepath="$PROJECT_DIR$/../JimCoGreetCheck/.idea/JimCoGreetCheck.iml" />
       <module fileurl="file://$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" filepath="$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" filepath="$PROJECT_DIR$/../JimCoLexCodeHooks/.idea/JimCoLexCodeHooks.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JimCoWeb.iml" filepath="$PROJECT_DIR$/.idea/JimCoWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../amazon-connect-streams/.idea/amazon-connect-streams.iml" filepath="$PROJECT_DIR$/../amazon-connect-streams/.idea/amazon-connect-streams.iml" />
     </modules>
   </component>
 </project>

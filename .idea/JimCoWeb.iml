@@ -9,5 +9,7 @@
     <orderEntry type="module" module-name="JimCoLexCodeHooks" />
     <orderEntry type="module" module-name="JimCoGreetCheck" />
     <orderEntry type="module" module-name="JimCoGreetCheck" />
+    <orderEntry type="module" module-name="JimCoCCP" />
+    <orderEntry type="module" module-name="amazon-connect-streams" />
   </component>
 </module>

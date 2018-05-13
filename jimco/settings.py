@@ -30,6 +30,14 @@ ALLOWED_HOSTS = [
     'jimcoweb-dev.us-east-1.elasticbeanstalk.com'
 ]
 
+# SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+# SECURE_SSL_REDIRECT = False
+# SESSION_COOKIE_SECURE = True
+# CSRF_COOKIE_SECURE = True
+# SECURE_HSTS_SECONDS = 60
+# SECURE_HSTS_PRELOAD = True
+# SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 LOGIN_REDIRECT_URL = 'index'
 
 # Application definition
@@ -45,10 +53,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',

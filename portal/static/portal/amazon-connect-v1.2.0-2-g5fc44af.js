@@ -2063,9 +2063,9 @@ module.exports = AWS.apiLoader;
 var util = require('./util');
 
 util.crypto.lib = require('crypto-browserify');
-util.Buffer = require('portal/static/portal/amazon-connect-v1.2.0').Buffer;
-util.url = require('portal/static/portal/amazon-connect-v1.2.0');
-util.querystring = require('portal/static/portal/amazon-connect-v1.2.0');
+util.Buffer = require('buffer/').Buffer;
+util.url = require('url/');
+util.querystring = require('querystring/');
 
 var AWS = require('./core');
 
@@ -9843,7 +9843,7 @@ function hash(alg, key) {
   return {
     update: function (data) {
       if(!Buffer.isBuffer(data)) data = new Buffer(data)
-
+        
       bufs.push(data)
       length += data.length
       return this
@@ -17312,7 +17312,7 @@ AWS.apiLoader.services['sts']['2011-06-15'] = require('../apis/sts-2011-06-15.mi
       this._logRollTimer = null;
       this.setLogRollInterval(DEFAULT_LOG_ROLL_INTERVAL);
    };
-
+   
    /**
     * Sets the interval in milliseconds that the logs will be rotated.
     * Logs are rotated out completely at the end of the second roll
@@ -20211,7 +20211,7 @@ AWS.apiLoader.services['sts']['2011-06-15'] = require('../apis/sts-2011-06-15.mi
                otherParams.ringtone.voice || {});
          }
       };
-
+      
       // Merge params from params.softphone into params.ringtone
       // for embedded and non-embedded use cases so that defaults
       // are picked up.

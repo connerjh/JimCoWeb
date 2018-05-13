@@ -6,8 +6,6 @@ from . import jimcodb
 
 def index(request):
 
-    print(request.user)
-
     if request.user.is_authenticated:
 
         print('User Id {}: '.format(request.user.username))
@@ -29,6 +27,10 @@ def index(request):
         return redirect('/login/?next={}'.format(request.path))
 
 
+def ccp(request):
+
+    template = loader.get_template('portal/CCP.html')
+    return HttpResponse(template.render({}, request))
 
 
 
