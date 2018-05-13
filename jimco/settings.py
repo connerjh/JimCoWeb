@@ -16,8 +16,10 @@ import os
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
+SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
+
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+  os.path.join(SITE_ROOT, 'static/'),
 )
 STATIC_URL = '/static/'
 
